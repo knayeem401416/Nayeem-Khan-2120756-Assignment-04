@@ -1,0 +1,42 @@
+body {
+    background-image: linear-gradient(to right, #006666, rgb(4, 234, 255), #006666);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+  
+.logo img {
+    width: 150px;
+}
+  
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-inline: 12px;
+}
+
+.forecast {
+    text-align: center;
+    color: white;
+}
+
+tr {
+    text-align: center;
+}
+
+td {
+    border: 10px solid #ddd;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    gap: 12px 24px;
+    margin-block-start: 28px;
+}
